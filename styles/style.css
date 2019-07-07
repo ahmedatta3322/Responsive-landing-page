@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@media only screen and (min-width: 768px) {
+    body {
+        //border-style: solid;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        //width: 100%;
+        //border-style: solid;
+        margin: 0%;
+
+    }
+
+    #right {
+        background-image: linear-gradient(hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+        //border-style: solid;
+        width: 50%;
+
+    }
+
+    #left {
+        //border-style: solid;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    html {
+
+        height: 100%;
+
+    }
+
+    #left-one {
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        //border-style: solid;
+
+    }
+
+    #left-one-one {
+        margin: 3vw;
+        width: 33%;
+        //border-style: solid;
+
+    }
+
+    #left-one-tow {
+        width: 33%;
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+        margin-left: -2.5vw;
+        //border-style: solid;
+    }
+
+    #left-one-three {
+        //width: 33%;
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+        margin-left: 2vw;
+        //border-style: solid;
+    }
+
+    #left-one-four {
+        //width: 33%;
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+        margin-left: 2vw;
+        //border-style: solid;
+    }
+
+    #left-one-five {
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+        margin-left: 2vw;
+        //border-style: solid;
+    }
+
+    #left-three {
+        height: 25%;
+
+    }
+
+    #left-tow {
+        height: 50%;
+        margin-top: 15%;
+        margin-left: 3vw;
+
+        //border-style : solid;
+    }
+
+    .font-edit {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    .font-edit-p {
+        font-family: 'Open Sans', sans-serif;
+        color: hsl(0, 0%, 50%);
+        font-weight: 400;
+        margin-top: 8%;
+
+
+    }
+
+    #img {
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+
+    .font-edit-sign {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    input {
+        height: 3.5vw;
+        //border-bottom: 1px solid hsl(0, 0%, 50%);
+        border-top: 0px;
+        border-left: 0px;
+        //border-right: 1px solid hsl(0, 0%, 50%);
+        box-shadow: 0.5px 0.5px hsl(0, 0%, 50%);
+    }
+
+    #fr {
+        margin-top: 13%;
+        width: 100%;
+        //border-style: solid;
+    }
+
+    #sub {
+        margin-left: 10%;
+        width: 13vw;
+        //height: 3vw;
+        background-color: hsl(163, 95%, 43%);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #email {
+        width: 25vw;
+    }
+
+    #privacy {
+        margin-left: 75%;
+        margin-top: 20%;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 375px;
+        margin: 0px;
+        border-style: solid;
+
+    }
+
+    #right {
+        background-image: url(https://svgshare.com/i/Dvp.svg);
+        width: 100%;
+        height: 445px;
+        //border-style:solid;
+    }
+
+    #left {}
+
+    html {}
+
+    #left-one {
+        display: flex;
+        margin-top: -115vw;
+        margin-left: 15vw;
+
+    }
+
+    #left-one-one {}
+
+    #left-one-tow {}
+
+    #left-one-three {
+        margin-right: 3vw;
+        margin-left: 20vw;
+
+    }
+
+    #left-one-four {
+        margin-right: 3vw;
+
+    }
+
+    #left-one-five {}
+
+    #left-three {
+        margin-left: 60vw;
+
+    }
+
+    #left-tow {
+        margin-top: 105vw;
+        width: 60vw;
+        margin-left: 15vw;
+
+
+    }
+
+    .font-edit {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    .font-edit-p {
+        font-family: 'Open Sans', sans-serif;
+        color: hsl(0, 0%, 50%);
+        font-weight: 400;
+        //margin-top: 8%;
+
+
+    }
+
+    #img {
+        width: 50vw;
+        margin-top: 25vw;
+        margin-left: 29vw;
+    }
+
+    .font-edit-sign {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    input {
+
+        //border-bottom: 1px solid hsl(0, 0%, 50%);
+        border-top: 0px;
+        border-left: 0px;
+        //border-right: 1px solid hsl(0, 0%, 50%);
+        box-shadow: 0.5px 0.5px hsl(0, 0%, 50%);
+    }
+
+    #fr {
+        //margin-top: 6%;
+        //width: 100%;
+        //border-style: solid;
+    }
+
+    #sub {
+        margin-left: 14vw;
+        width: 29vw;
+        height: 7vw;
+        background-color: hsl(163, 95%, 43%);
+        // color: white;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 3vw;
+    }
+
+    #email {
+        //margin-top: -100vw;
+        //height: 7vw;
+        width: 90%;
+    }
+
+    #privacy {
+
+        font-family: 'Raleway', sans-serif;
+        text-decoration: underline;
+    }
+
+}
