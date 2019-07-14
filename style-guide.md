@@ -1,8 +1,9 @@
 # Front-end Style Guide
-
+//<img src="images\bg-intro-mobile.svg"/>
+<img src="images\bg-intro-mobile.svg"></img>
+<img src="images/logo.svg"></img>
 ## Layout
-
-The designs were created to the following widths:
+<h1 class="fas fa-phone icon" >
 
 - Mobile: 375px
 - Desktop: 1440px
@@ -20,7 +21,9 @@ The designs were created to the following widths:
 
 ### Neutral
 
+- Light Gray: hsl(106, 0%, 98%)
 - Gray: hsl(0, 0%, 50%)
+- Dark Gray: hsl(0, 0%, 17%)
 
 ## Typography
 
@@ -30,13 +33,6 @@ The designs were created to the following widths:
 - Weights: 700
 
 ### Body
-
+<i class="fas fa-phone"></i>
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700
-
-## Font Icons
-
-For the icons in the header. Use whichever font icon library you prefer. Below you'll find a couple of options:
-
-- [Font Awesome](https://fontawesome.com/)
-- [Ionicons](https://ionicons.com/)
+- Weights: 400, 600, 700

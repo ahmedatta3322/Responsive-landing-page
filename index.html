@@ -3,41 +3,219 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <!-- displays
-site properly based on user's device -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon- 32x32.png">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Frontend Mentor | Landing page with detailed integrations section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet ?? -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
 
 <body>
-    <div id="right"> <img id="img" src="https://svgshare.com/i/Dvn.svg"></img> </div>
-    <div id="left">
-        <div id="left-one">
-            <div id="left-one-one"><img src="https://svgshare.com/i/DxJ.svg"></img></div>
-            <div id="left-one-tow"></div>
-            <div id="left-one-three" class="fab fa-twitter"></div>
-            <div id="left-one-four" class="fab fa-facebook-f"></div>
-            <div id="left-one-five" class="fas fa-envelope"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images\logo.svg" class="img-fluid" id="logo"></img>
+            </div>
+            <div class="col-8">
+                <img src="images\bg-intro-mobile.svg" class="img-fluid" id="draw"></img>
+                <div id="sign-box">
+                    <button type="button" class="btn btn-link btn-md sign" id="signin">Sign in</button>
+                    <button type="button" class="btn btn-success btn-md sign">Sign up</button>
+                </div>
+            </div>
+
         </div>
-        <div id="left-tow">
-            <h3 class="font-edit">All your files in one secure location
-                accessible anywhere </h3>
-            <p class="font-edit-p">Fylo stores all your most important files in one
-                secure location. access them wherever you need share and collaborate with
-                friends, family and co-workers .<p>
-                    <h3 class="font-edit-sign">Sign up for early access</h3>
-                    <form id="fr">
-                        <input type="text" name="name" id="email">
-                        <input type="submit" name="register" value="Sign up" id="sub">
-                    </form>
+        <div class="row stage">
+            <img src="images/illustration-main.svg" class="img-fluid"></img>
         </div>
-        <div id="left-three">
-            <p id="privacy">Privacy and policy</p>
+        <div class="row stage">
+            <h3 class="text-center">All your files in one <br> secure location, <br> accessible anywhere.</h3>
+            <p class="text-center">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
         </div>
+        <div class="row justify-content-center">
+            <button class="btn btn-success btn-lg " id="getstart">Get started</button>
+        </div>
+        <div class="col">
+            <div class="row justify-content-center stage" id="icon1">
+                <div><img src="images/icon-devices.svg"></img>
+                </div>
+                <div>
+                    <p class="stage">All platforms, all devices, all your files</p>
+                </div>
+            </div>
+            <div class="row justify-content-center stage" id="icon2">
+                <div><img src="images/icon-collaboration.svg"></img>
+                </div>
+                <div>
+                    <p class="stage">All platforms, all devices, all your files</p>
+                </div>
+            </div>
+            <div class="row justify-content-center stage" id="icon3">
+                <div><img src="images/icon-security.svg"></img>
+                </div>
+                <div>
+                    <p class="stage">All platforms, all devices, all your files</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row justify-content-center" id="v-space">
+                <h4 class="text-center">Connect with the apps you <br> use everyday</h4></div>
+            <div class="row justify-content-center">
+                <p class="text-center">Fylo has you covered for all of your file storage needs. All platforms, all devices, all your files Security you can trust Real-time collaboration Connect with the apps you use everyday Fylo seamlessly integrates with hundreds of apps, meaning you can access and work on your files from the apps you already know and love.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-slack.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">Slack</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-gsuite.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">G-suite</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-trello.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">Trello</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-asana.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">Asana</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-salesforce.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">salesforce</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center stage">
+            <div class="card justify-content-center border-dark " style="width: 18rem;">
+                <div class="card-header justify-content-center">
+                    <img src="images/logo-typeform.png" class="ima"></img>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="text-center">Typeform</h4>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row justify-content-center" id="v-space">
+                <h4 class="text-center">Start using Fylo today </h4></div>
+            <div class="row justify-content-center">
+                <p class="text-center">Fylo has you covered for all of your file storage needs. All platforms, all devices, all your files Security you can trust Real-time collaboration Connect with the apps you use everyday Fylo seamlessly integrates with hundreds of apps, meaning you can access and work on your files from the apps you already know and love.</p>
+            </div>
+            <div class="row justify-content-center">
+                <button class="btn btn-success btn-lg " id="getstart">Get started</button>
+            </div>
+        </div>
+
     </div>
+    <footer>
+        <div class="row"><img src="images/logo-white.svg" id="logo2"></img>
+            <p id="para" class="colo">Receive updates from us, including tips and tricks on how to improve your workflow.</p>
+            <input id="para"></input>
+            <button type="button" class="btn btn-success" id="join">Join</button>
+        </div>
+        <div class="row" id="logo">
+            <div class="col-2">
+                <p class="fas fa-phone " id="para"></p>
+            </div>
+            <div class="col">
+                <p class="colo">Join Phone: +1-543-123-4567</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <p class="fas fa-envelope " id="para"></p>
+            </div>
+            <div class="col">
+                <p class="colo"> example@fylo.com</p>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-unstyled listx">
+                <li class="font-weight-bold">Desktop App</li>
+                <li>Mobile App</li>
+                <li>Pricing</li>
+                <li>Feature</li>
+
+            </ul>
+        </div>
+        <div class="row">
+            <ul class="list-unstyled listx">
+                <li class="font-weight-bold">About Us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+				<li>Blog</li>
+				
+        </div>
+        <div class="row">
+            </ul>
+            <ul class="list-unstyled listx">
+                <li class="font-weight-bold">Support</li>
+                <li>Contact Us</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+
+            </ul>
+        </div>
+
+    </footer>
 </body>
 
 </html>
